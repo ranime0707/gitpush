@@ -1,0 +1,38 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules and build directories
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environnement local
+.env
+
+# IDE configurations and editor files
+.vscode/
+# Ne pas ignorer les extensions VS Code (si tu veux les versionner)
+!.vscode/extensions.json
+.idea/
+
+# MacOS
+.DS_Store
+
+# Fichiers spécifiques à Windows
+Thumbs.db
+
+# Fichiers générés par Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Fichiers temporaires et caches
+*.sw?
